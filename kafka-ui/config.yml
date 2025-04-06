@@ -2,12 +2,27 @@ kafka:
   clusters:
     - bootstrapServers: kafka-source-0:9092,kafka-source-1:9092
       name: kafka-source
+      properties:
+        security.protocol: SSL
+        ssl.keystore.location: /etc/kafkaui/ssl/kafka-ui-keystore.jks
+        ssl.keystore.password: test1234
+        ssl.truststore.location: /etc/kafkaui/ssl/kafka.truststore.jks
+        ssl.truststore.password: test1234
+        ssl.endpoint.identification.algorithm: ""
       metrics:
         type: JMX
         port: 9404
+        ssl: true
 
     - bootstrapServers: kafka-target-0:9092,kafka-target-1:9092
       name: kafka-target
+      properties:
+        security.protocol: SSL
+        ssl.keystore.location: /etc/kafkaui/ssl/kafka-ui-keystore.jks
+        ssl.keystore.password: test1234
+        ssl.truststore.location: /etc/kafkaui/ssl/kafka.truststore.jks
+        ssl.truststore.password: test1234
+        ssl.endpoint.identification.algorithm: ""
       kafkaConnect:
         - address: http://kafka-connect-0:8083
           name: kafka-connect-0
