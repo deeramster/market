@@ -1,0 +1,29 @@
+groups:
+  - name: kafka-alerts
+    rules:
+      - alert: KafkaBrokerDown
+        expr: up{job="kafka-exporter"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Kafka Broker Down ({{ $labels.instance }})"
+          description: "Kafka exporter cannot scrape metrics from brokers for 1 minute. Check if Kafka is running."
+
+      - alert: KafkaJMXScrapeFailure
+        expr: up{job="jmx-exporter"} == 0
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Kafka JMX Metrics Unavailable ({{ $labels.instance }})"
+          description: "JMX exporter failed to scrape Kafka metrics for 2 minutes."
+
+      - alert: KafkaConnectDown
+        expr: up{job="kafka-connect-exporter"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Kafka Connect Down ({{ $labels.instance }})"
+          description: "Kafka Connect instance {{ $labels.instance }} is not responding."

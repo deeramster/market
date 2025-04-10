@@ -1,7 +1,7 @@
 {
   "name": "mm2-msc-source-0",
   "connector.class": "org.apache.kafka.connect.mirror.MirrorSourceConnector",
-  "topics": "test",
+  "topics": "products",
   "sync.topic.acls.enabled": false,
   "sync.topic.configs.enabled": false,
   "key.converter": "org.apache.kafka.connect.converters.ByteArrayConverter",
@@ -12,5 +12,19 @@
   "target.cluster.bootstrap.servers": "kafka-target-0:9092,kafka-target-1:9092",
   "replication.factor": "1",
   "replication.policy.class": "org.apache.kafka.connect.mirror.IdentityReplicationPolicy",
-  "tasks.max": "2"
+  "tasks.max": "2",
+  "source.cluster.security.protocol": "SSL",
+  "source.cluster.ssl.truststore.location": "/opt/bitnami/kafka/config/certs/kafka.truststore.jks",
+  "source.cluster.ssl.truststore.password": "test1234",
+  "source.cluster.ssl.keystore.location": "/opt/bitnami/kafka/config/certs/kafka.keystore.jks",
+  "source.cluster.ssl.keystore.password": "test1234",
+  "source.cluster.ssl.key.password": "test1234",
+  "source.cluster.ssl.endpoint.identification.algorithm": "",
+  "target.cluster.security.protocol": "SSL",
+  "target.cluster.ssl.truststore.location": "/opt/bitnami/kafka/config/certs/kafka.truststore.jks",
+  "target.cluster.ssl.truststore.password": "test1234",
+  "target.cluster.ssl.keystore.location": "/opt/bitnami/kafka/config/certs/kafka.keystore.jks",
+  "target.cluster.ssl.keystore.password": "test1234",
+  "target.cluster.ssl.key.password": "test1234",
+  "target.cluster.ssl.endpoint.identification.algorithm": ""
 }

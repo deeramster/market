@@ -1,0 +1,14 @@
+{
+  "data_file_path": "/app/data/products.json",
+  "num_products": 100,
+  "kafka": {
+    "bootstrap_servers": "kafka-source-0:9092,kafka-source-1:9092",
+    "schema_registry_url": "http://schema-registry:8081",
+    "topic": "products",
+    "security_protocol": "SSL",
+    "ssl_ca_location": "/app/certs/truststore.pem",
+    "ssl_certificate_location": "/app/certs/shop-api-cert.pem",
+    "ssl_key_location": "/app/certs/shop-api-key.pem",
+    "ssl_key_password": "test1234"
+  }
+}

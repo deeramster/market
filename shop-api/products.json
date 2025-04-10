@@ -1,0 +1,4102 @@
+[
+  {
+    "product_id": "10000",
+    "name": "SmartLife Электроника 0",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4591.868829373159,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 158,
+      "reserved": 22
+    },
+    "sku": "SmartLife-10000",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product0.jpg",
+        "alt": "SmartLife Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product0_side.jpg",
+        "alt": "SmartLife Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "440g",
+      "dimensions": "62mm x 45mm x 26mm",
+      "battery_life": "35 hours",
+      "water_resistance": "IP56"
+    },
+    "created_at": "2025-03-15T14:48:20.234914461Z",
+    "updated_at": "2025-04-02T14:48:20.234914461Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10001",
+    "name": "SmartLife Смартфоны 1",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6234.8393723245545,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 199,
+      "reserved": 4
+    },
+    "sku": "SmartLife-10001",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product1.jpg",
+        "alt": "SmartLife Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product1_side.jpg",
+        "alt": "SmartLife Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "247g",
+      "dimensions": "98mm x 12mm x 12mm",
+      "battery_life": "34 hours",
+      "water_resistance": "IP66"
+    },
+    "created_at": "2025-04-06T14:48:20.235020673Z",
+    "updated_at": "2025-04-06T14:48:20.235020673Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10002",
+    "name": "ABC Аксессуары 2",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2066.8769911928416,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "ABC",
+    "stock": {
+      "available": 226,
+      "reserved": 4
+    },
+    "sku": "ABC-10002",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product2.jpg",
+        "alt": "ABC Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product2_side.jpg",
+        "alt": "ABC Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "67g",
+      "dimensions": "77mm x 59mm x 16mm",
+      "battery_life": "43 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-03-30T14:48:20.235032504Z",
+    "updated_at": "2025-04-06T14:48:20.235032504Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10003",
+    "name": "SmartLife Смартфоны 3",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2547.4835667609955,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 90,
+      "reserved": 14
+    },
+    "sku": "SmartLife-10003",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product3.jpg",
+        "alt": "SmartLife Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product3_side.jpg",
+        "alt": "SmartLife Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "292g",
+      "dimensions": "93mm x 74mm x 18mm",
+      "battery_life": "46 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-03-21T14:48:20.235043563Z",
+    "updated_at": "2025-04-02T14:48:20.235043563Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10004",
+    "name": "SmartLife Аксессуары 4",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2929.4508848222576,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 204,
+      "reserved": 19
+    },
+    "sku": "SmartLife-10004",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product4.jpg",
+        "alt": "SmartLife Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product4_side.jpg",
+        "alt": "SmartLife Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "327g",
+      "dimensions": "13mm x 57mm x 16mm",
+      "battery_life": "22 hours",
+      "water_resistance": "IP56"
+    },
+    "created_at": "2025-03-13T14:48:20.235060677Z",
+    "updated_at": "2025-03-30T14:48:20.235060677Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10005",
+    "name": "SmartLife Компьютеры 5",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1801.0204044967422,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 98,
+      "reserved": 43
+    },
+    "sku": "SmartLife-10005",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product5.jpg",
+        "alt": "SmartLife Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product5_side.jpg",
+        "alt": "SmartLife Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "428g",
+      "dimensions": "35mm x 62mm x 11mm",
+      "battery_life": "33 hours",
+      "water_resistance": "IP66"
+    },
+    "created_at": "2025-04-01T14:48:20.235072864Z",
+    "updated_at": "2025-03-31T14:48:20.235072864Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10006",
+    "name": "FutureTech Бытовая техника 6",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1547.5300410381774,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 184,
+      "reserved": 20
+    },
+    "sku": "FutureTech-10006",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product6.jpg",
+        "alt": "FutureTech Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product6_side.jpg",
+        "alt": "FutureTech Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "484g",
+      "dimensions": "17mm x 93mm x 5mm",
+      "battery_life": "34 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-04-04T14:48:20.282064303Z",
+    "updated_at": "2025-04-06T14:48:20.282064303Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10007",
+    "name": "TechGiant Смартфоны 7",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8970.87456088599,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 113,
+      "reserved": 21
+    },
+    "sku": "TechGiant-10007",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product7.jpg",
+        "alt": "TechGiant Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product7_side.jpg",
+        "alt": "TechGiant Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "370g",
+      "dimensions": "71mm x 17mm x 6mm",
+      "battery_life": "37 hours",
+      "water_resistance": "IP62"
+    },
+    "created_at": "2025-03-24T14:48:20.282081528Z",
+    "updated_at": "2025-04-05T14:48:20.282081528Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10008",
+    "name": "XYZ Компьютеры 8",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5611.795856476616,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 218,
+      "reserved": 20
+    },
+    "sku": "XYZ-10008",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product8.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product8_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "413g",
+      "dimensions": "71mm x 50mm x 6mm",
+      "battery_life": "31 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-03-31T14:48:20.282092893Z",
+    "updated_at": "2025-04-02T14:48:20.282092893Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10009",
+    "name": "ABC Компьютеры 9",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9934.019693912278,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "ABC",
+    "stock": {
+      "available": 247,
+      "reserved": 7
+    },
+    "sku": "ABC-10009",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product9.jpg",
+        "alt": "ABC Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product9_side.jpg",
+        "alt": "ABC Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "306g",
+      "dimensions": "88mm x 71mm x 8mm",
+      "battery_life": "41 hours",
+      "water_resistance": "IP65"
+    },
+    "created_at": "2025-03-22T14:48:20.282103818Z",
+    "updated_at": "2025-04-03T14:48:20.282103818Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10010",
+    "name": "TechGiant Бытовая техника 10",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4922.78958666818,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 182,
+      "reserved": 5
+    },
+    "sku": "TechGiant-10010",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product10.jpg",
+        "alt": "TechGiant Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product10_side.jpg",
+        "alt": "TechGiant Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "384g",
+      "dimensions": "70mm x 61mm x 29mm",
+      "battery_life": "14 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-04-03T14:48:20.282114829Z",
+    "updated_at": "2025-03-30T14:48:20.282114829Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10011",
+    "name": "TechGiant Бытовая техника 11",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8097.228667668089,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 237,
+      "reserved": 43
+    },
+    "sku": "TechGiant-10011",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product11.jpg",
+        "alt": "TechGiant Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product11_side.jpg",
+        "alt": "TechGiant Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "225g",
+      "dimensions": "93mm x 89mm x 26mm",
+      "battery_life": "32 hours",
+      "water_resistance": "IP58"
+    },
+    "created_at": "2025-03-11T14:48:20.282132316Z",
+    "updated_at": "2025-04-07T14:48:20.282132316Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10012",
+    "name": "SmartLife Бытовая техника 12",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5163.069189011247,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 231,
+      "reserved": 17
+    },
+    "sku": "SmartLife-10012",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product12.jpg",
+        "alt": "SmartLife Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product12_side.jpg",
+        "alt": "SmartLife Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "91g",
+      "dimensions": "45mm x 99mm x 8mm",
+      "battery_life": "25 hours",
+      "water_resistance": "IP58"
+    },
+    "created_at": "2025-03-12T14:48:20.282143318Z",
+    "updated_at": "2025-04-06T14:48:20.282143318Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10013",
+    "name": "ABC Аксессуары 13",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7893.861472658577,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "ABC",
+    "stock": {
+      "available": 206,
+      "reserved": 35
+    },
+    "sku": "ABC-10013",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product13.jpg",
+        "alt": "ABC Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product13_side.jpg",
+        "alt": "ABC Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "155g",
+      "dimensions": "69mm x 61mm x 10mm",
+      "battery_life": "40 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-04-06T14:48:20.282154657Z",
+    "updated_at": "2025-04-06T14:48:20.282154657Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10014",
+    "name": "ABC Компьютеры 14",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1712.2593953937228,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "ABC",
+    "stock": {
+      "available": 195,
+      "reserved": 42
+    },
+    "sku": "ABC-10014",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product14.jpg",
+        "alt": "ABC Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product14_side.jpg",
+        "alt": "ABC Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "465g",
+      "dimensions": "38mm x 54mm x 18mm",
+      "battery_life": "15 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-04-04T14:48:20.282165653Z",
+    "updated_at": "2025-04-08T14:48:20.282165653Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10015",
+    "name": "TechGiant Бытовая техника 15",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8058.79624588511,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 182,
+      "reserved": 49
+    },
+    "sku": "TechGiant-10015",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product15.jpg",
+        "alt": "TechGiant Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product15_side.jpg",
+        "alt": "TechGiant Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "322g",
+      "dimensions": "90mm x 46mm x 12mm",
+      "battery_life": "19 hours",
+      "water_resistance": "IP62"
+    },
+    "created_at": "2025-03-30T14:48:20.282177172Z",
+    "updated_at": "2025-04-08T14:48:20.282177172Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10016",
+    "name": "FutureTech Электроника 16",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6809.189713112005,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 173,
+      "reserved": 32
+    },
+    "sku": "FutureTech-10016",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product16.jpg",
+        "alt": "FutureTech Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product16_side.jpg",
+        "alt": "FutureTech Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "360g",
+      "dimensions": "87mm x 12mm x 5mm",
+      "battery_life": "32 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-03-20T14:48:20.282188237Z",
+    "updated_at": "2025-04-04T14:48:20.282188237Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10017",
+    "name": "TechGiant Электроника 17",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4287.477375468408,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 195,
+      "reserved": 32
+    },
+    "sku": "TechGiant-10017",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product17.jpg",
+        "alt": "TechGiant Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product17_side.jpg",
+        "alt": "TechGiant Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "420g",
+      "dimensions": "64mm x 83mm x 5mm",
+      "battery_life": "26 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-03-12T14:48:20.282701092Z",
+    "updated_at": "2025-04-03T14:48:20.282701092Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10018",
+    "name": "FutureTech Смартфоны 18",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9390.0555118299,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 232,
+      "reserved": 30
+    },
+    "sku": "FutureTech-10018",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product18.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product18_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "360g",
+      "dimensions": "67mm x 11mm x 29mm",
+      "battery_life": "12 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-04-03T14:48:20.282830678Z",
+    "updated_at": "2025-04-04T14:48:20.282830678Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10019",
+    "name": "ABC Смартфоны 19",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4807.964409371202,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "ABC",
+    "stock": {
+      "available": 105,
+      "reserved": 43
+    },
+    "sku": "ABC-10019",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product19.jpg",
+        "alt": "ABC Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product19_side.jpg",
+        "alt": "ABC Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "147g",
+      "dimensions": "90mm x 33mm x 10mm",
+      "battery_life": "12 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-10T14:48:20.282844576Z",
+    "updated_at": "2025-03-31T14:48:20.282844576Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10020",
+    "name": "SmartLife Электроника 20",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8336.258084038576,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 60,
+      "reserved": 2
+    },
+    "sku": "SmartLife-10020",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product20.jpg",
+        "alt": "SmartLife Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product20_side.jpg",
+        "alt": "SmartLife Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "453g",
+      "dimensions": "45mm x 61mm x 8mm",
+      "battery_life": "44 hours",
+      "water_resistance": "IP62"
+    },
+    "created_at": "2025-03-27T14:48:20.282855474Z",
+    "updated_at": "2025-04-05T14:48:20.282855474Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10021",
+    "name": "FutureTech Смартфоны 21",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4984.633711701947,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 86,
+      "reserved": 8
+    },
+    "sku": "FutureTech-10021",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product21.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product21_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "138g",
+      "dimensions": "90mm x 76mm x 17mm",
+      "battery_life": "24 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-03-29T14:48:20.283328473Z",
+    "updated_at": "2025-04-04T14:48:20.283328473Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10022",
+    "name": "FutureTech Компьютеры 22",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8869.971667033775,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 221,
+      "reserved": 37
+    },
+    "sku": "FutureTech-10022",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product22.jpg",
+        "alt": "FutureTech Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product22_side.jpg",
+        "alt": "FutureTech Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "308g",
+      "dimensions": "83mm x 89mm x 21mm",
+      "battery_life": "31 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-03-11T14:48:20.283342074Z",
+    "updated_at": "2025-04-02T14:48:20.283342074Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10023",
+    "name": "XYZ Компьютеры 23",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4306.304004096046,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 226,
+      "reserved": 48
+    },
+    "sku": "XYZ-10023",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product23.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product23_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "339g",
+      "dimensions": "21mm x 52mm x 20mm",
+      "battery_life": "33 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-04-07T14:48:20.28335292Z",
+    "updated_at": "2025-04-08T14:48:20.28335292Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10024",
+    "name": "XYZ Аксессуары 24",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5286.34956301726,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "XYZ",
+    "stock": {
+      "available": 143,
+      "reserved": 2
+    },
+    "sku": "XYZ-10024",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product24.jpg",
+        "alt": "XYZ Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product24_side.jpg",
+        "alt": "XYZ Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "289g",
+      "dimensions": "15mm x 87mm x 10mm",
+      "battery_life": "29 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-03-27T14:48:20.283363723Z",
+    "updated_at": "2025-04-01T14:48:20.283363723Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10025",
+    "name": "FutureTech Электроника 25",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8233.011057523858,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 225,
+      "reserved": 46
+    },
+    "sku": "FutureTech-10025",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product25.jpg",
+        "alt": "FutureTech Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product25_side.jpg",
+        "alt": "FutureTech Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "280g",
+      "dimensions": "35mm x 74mm x 27mm",
+      "battery_life": "38 hours",
+      "water_resistance": "IP54"
+    },
+    "created_at": "2025-04-03T14:48:20.283374845Z",
+    "updated_at": "2025-04-05T14:48:20.283374845Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10026",
+    "name": "FutureTech Смартфоны 26",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5001.552260084163,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 54,
+      "reserved": 48
+    },
+    "sku": "FutureTech-10026",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product26.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product26_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "280g",
+      "dimensions": "37mm x 13mm x 12mm",
+      "battery_life": "40 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-15T14:48:20.283385634Z",
+    "updated_at": "2025-04-05T14:48:20.283385634Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10027",
+    "name": "ABC Бытовая техника 27",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2876.5272065111494,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "ABC",
+    "stock": {
+      "available": 140,
+      "reserved": 23
+    },
+    "sku": "ABC-10027",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product27.jpg",
+        "alt": "ABC Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product27_side.jpg",
+        "alt": "ABC Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "327g",
+      "dimensions": "91mm x 85mm x 16mm",
+      "battery_life": "14 hours",
+      "water_resistance": "IP54"
+    },
+    "created_at": "2025-04-07T14:48:20.28339623Z",
+    "updated_at": "2025-04-08T14:48:20.28339623Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10028",
+    "name": "FutureTech Смартфоны 28",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2563.913147008438,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 217,
+      "reserved": 30
+    },
+    "sku": "FutureTech-10028",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product28.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product28_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "145g",
+      "dimensions": "11mm x 19mm x 28mm",
+      "battery_life": "45 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-04-04T14:48:20.283407392Z",
+    "updated_at": "2025-04-05T14:48:20.283407392Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10029",
+    "name": "TechGiant Электроника 29",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7726.237845893737,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 183,
+      "reserved": 13
+    },
+    "sku": "TechGiant-10029",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product29.jpg",
+        "alt": "TechGiant Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product29_side.jpg",
+        "alt": "TechGiant Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "69g",
+      "dimensions": "71mm x 10mm x 8mm",
+      "battery_life": "26 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-03-15T14:48:20.283418131Z",
+    "updated_at": "2025-04-08T14:48:20.283418131Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10030",
+    "name": "XYZ Аксессуары 30",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1850.5723675678573,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "XYZ",
+    "stock": {
+      "available": 111,
+      "reserved": 21
+    },
+    "sku": "XYZ-10030",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product30.jpg",
+        "alt": "XYZ Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product30_side.jpg",
+        "alt": "XYZ Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "125g",
+      "dimensions": "37mm x 91mm x 10mm",
+      "battery_life": "46 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-03-19T14:48:20.283428982Z",
+    "updated_at": "2025-04-07T14:48:20.283428982Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10031",
+    "name": "FutureTech Смартфоны 31",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1592.2855449740084,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 129,
+      "reserved": 39
+    },
+    "sku": "FutureTech-10031",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product31.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product31_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "410g",
+      "dimensions": "38mm x 52mm x 29mm",
+      "battery_life": "44 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-03-15T14:48:20.283446973Z",
+    "updated_at": "2025-04-05T14:48:20.283446973Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10032",
+    "name": "ABC Компьютеры 32",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5613.727197751231,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "ABC",
+    "stock": {
+      "available": 224,
+      "reserved": 26
+    },
+    "sku": "ABC-10032",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product32.jpg",
+        "alt": "ABC Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product32_side.jpg",
+        "alt": "ABC Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "202g",
+      "dimensions": "94mm x 63mm x 18mm",
+      "battery_life": "35 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-04-02T14:48:20.283457611Z",
+    "updated_at": "2025-04-01T14:48:20.283457611Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10033",
+    "name": "TechGiant Смартфоны 33",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4856.495072924568,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 88,
+      "reserved": 14
+    },
+    "sku": "TechGiant-10033",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product33.jpg",
+        "alt": "TechGiant Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product33_side.jpg",
+        "alt": "TechGiant Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "323g",
+      "dimensions": "42mm x 81mm x 18mm",
+      "battery_life": "13 hours",
+      "water_resistance": "IP54"
+    },
+    "created_at": "2025-03-18T14:48:20.283468287Z",
+    "updated_at": "2025-04-02T14:48:20.283468287Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10034",
+    "name": "ABC Компьютеры 34",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2172.936940778208,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "ABC",
+    "stock": {
+      "available": 110,
+      "reserved": 20
+    },
+    "sku": "ABC-10034",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product34.jpg",
+        "alt": "ABC Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product34_side.jpg",
+        "alt": "ABC Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "225g",
+      "dimensions": "62mm x 60mm x 22mm",
+      "battery_life": "17 hours",
+      "water_resistance": "IP65"
+    },
+    "created_at": "2025-04-01T14:48:20.283479264Z",
+    "updated_at": "2025-04-02T14:48:20.283479264Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10035",
+    "name": "SmartLife Смартфоны 35",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9181.10709682266,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 107,
+      "reserved": 37
+    },
+    "sku": "SmartLife-10035",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product35.jpg",
+        "alt": "SmartLife Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product35_side.jpg",
+        "alt": "SmartLife Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "306g",
+      "dimensions": "65mm x 90mm x 29mm",
+      "battery_life": "35 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-03-18T14:48:20.283489898Z",
+    "updated_at": "2025-04-07T14:48:20.283489898Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10036",
+    "name": "XYZ Смартфоны 36",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4782.650493116288,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "XYZ",
+    "stock": {
+      "available": 145,
+      "reserved": 20
+    },
+    "sku": "XYZ-10036",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product36.jpg",
+        "alt": "XYZ Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product36_side.jpg",
+        "alt": "XYZ Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "282g",
+      "dimensions": "82mm x 31mm x 21mm",
+      "battery_life": "37 hours",
+      "water_resistance": "IP66"
+    },
+    "created_at": "2025-04-04T14:48:20.283500495Z",
+    "updated_at": "2025-04-08T14:48:20.283500495Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10037",
+    "name": "FutureTech Смартфоны 37",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7213.129955849648,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 238,
+      "reserved": 3
+    },
+    "sku": "FutureTech-10037",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product37.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product37_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "443g",
+      "dimensions": "47mm x 91mm x 13mm",
+      "battery_life": "33 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-21T14:48:20.283511647Z",
+    "updated_at": "2025-04-04T14:48:20.283511647Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10038",
+    "name": "FutureTech Компьютеры 38",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4134.321707582151,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 199,
+      "reserved": 37
+    },
+    "sku": "FutureTech-10038",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product38.jpg",
+        "alt": "FutureTech Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product38_side.jpg",
+        "alt": "FutureTech Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "154g",
+      "dimensions": "13mm x 87mm x 19mm",
+      "battery_life": "36 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-03-10T14:48:20.283522342Z",
+    "updated_at": "2025-04-07T14:48:20.283522342Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10039",
+    "name": "FutureTech Компьютеры 39",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7415.271136842209,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 165,
+      "reserved": 29
+    },
+    "sku": "FutureTech-10039",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product39.jpg",
+        "alt": "FutureTech Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product39_side.jpg",
+        "alt": "FutureTech Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "151g",
+      "dimensions": "49mm x 17mm x 17mm",
+      "battery_life": "34 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-03-23T14:48:20.283532946Z",
+    "updated_at": "2025-04-08T14:48:20.283532946Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10040",
+    "name": "SmartLife Электроника 40",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4719.791608587599,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 103,
+      "reserved": 6
+    },
+    "sku": "SmartLife-10040",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product40.jpg",
+        "alt": "SmartLife Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product40_side.jpg",
+        "alt": "SmartLife Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "343g",
+      "dimensions": "37mm x 42mm x 6mm",
+      "battery_life": "17 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-03-18T14:48:20.28354702Z",
+    "updated_at": "2025-04-02T14:48:20.28354702Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10041",
+    "name": "XYZ Компьютеры 41",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9502.63995961297,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 119,
+      "reserved": 12
+    },
+    "sku": "XYZ-10041",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product41.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product41_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "447g",
+      "dimensions": "94mm x 85mm x 14mm",
+      "battery_life": "14 hours",
+      "water_resistance": "IP60"
+    },
+    "created_at": "2025-03-14T14:48:20.283557996Z",
+    "updated_at": "2025-04-02T14:48:20.283557996Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10042",
+    "name": "TechGiant Компьютеры 42",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7828.8083864917435,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 85,
+      "reserved": 11
+    },
+    "sku": "TechGiant-10042",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product42.jpg",
+        "alt": "TechGiant Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product42_side.jpg",
+        "alt": "TechGiant Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "302g",
+      "dimensions": "26mm x 12mm x 8mm",
+      "battery_life": "13 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-26T14:48:20.283568709Z",
+    "updated_at": "2025-04-08T14:48:20.283568709Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10043",
+    "name": "XYZ Аксессуары 43",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7286.697022488818,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "XYZ",
+    "stock": {
+      "available": 85,
+      "reserved": 8
+    },
+    "sku": "XYZ-10043",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product43.jpg",
+        "alt": "XYZ Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product43_side.jpg",
+        "alt": "XYZ Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "262g",
+      "dimensions": "45mm x 43mm x 19mm",
+      "battery_life": "38 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-03-23T14:48:20.283580344Z",
+    "updated_at": "2025-04-02T14:48:20.283580344Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10044",
+    "name": "SmartLife Аксессуары 44",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1470.1369972168181,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 187,
+      "reserved": 1
+    },
+    "sku": "SmartLife-10044",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product44.jpg",
+        "alt": "SmartLife Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product44_side.jpg",
+        "alt": "SmartLife Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "402g",
+      "dimensions": "50mm x 26mm x 29mm",
+      "battery_life": "46 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-04-08T14:48:20.283591085Z",
+    "updated_at": "2025-04-02T14:48:20.283591085Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10045",
+    "name": "ABC Смартфоны 45",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1913.90087841962,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "ABC",
+    "stock": {
+      "available": 164,
+      "reserved": 48
+    },
+    "sku": "ABC-10045",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product45.jpg",
+        "alt": "ABC Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product45_side.jpg",
+        "alt": "ABC Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "112g",
+      "dimensions": "95mm x 92mm x 20mm",
+      "battery_life": "44 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-03-14T14:48:20.283601756Z",
+    "updated_at": "2025-04-08T14:48:20.283601756Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10046",
+    "name": "SmartLife Бытовая техника 46",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1099.4819681349434,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 88,
+      "reserved": 15
+    },
+    "sku": "SmartLife-10046",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product46.jpg",
+        "alt": "SmartLife Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product46_side.jpg",
+        "alt": "SmartLife Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "242g",
+      "dimensions": "12mm x 42mm x 16mm",
+      "battery_life": "12 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-03-24T14:48:20.283612853Z",
+    "updated_at": "2025-04-02T14:48:20.283612853Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10047",
+    "name": "FutureTech Аксессуары 47",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9678.261642632446,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 66,
+      "reserved": 43
+    },
+    "sku": "FutureTech-10047",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product47.jpg",
+        "alt": "FutureTech Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product47_side.jpg",
+        "alt": "FutureTech Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "274g",
+      "dimensions": "35mm x 44mm x 21mm",
+      "battery_life": "21 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-25T14:48:20.283623647Z",
+    "updated_at": "2025-04-05T14:48:20.283623647Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10048",
+    "name": "XYZ Смартфоны 48",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6353.625255908052,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "XYZ",
+    "stock": {
+      "available": 102,
+      "reserved": 42
+    },
+    "sku": "XYZ-10048",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product48.jpg",
+        "alt": "XYZ Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product48_side.jpg",
+        "alt": "XYZ Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "92g",
+      "dimensions": "99mm x 18mm x 19mm",
+      "battery_life": "16 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-15T14:48:20.283634339Z",
+    "updated_at": "2025-04-07T14:48:20.283634339Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10049",
+    "name": "SmartLife Компьютеры 49",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8721.911294731868,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 156,
+      "reserved": 12
+    },
+    "sku": "SmartLife-10049",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product49.jpg",
+        "alt": "SmartLife Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product49_side.jpg",
+        "alt": "SmartLife Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "143g",
+      "dimensions": "85mm x 85mm x 29mm",
+      "battery_life": "32 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-04-01T14:48:20.283645351Z",
+    "updated_at": "2025-04-08T14:48:20.283645351Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10050",
+    "name": "XYZ Компьютеры 50",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6378.931277232444,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 141,
+      "reserved": 6
+    },
+    "sku": "XYZ-10050",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product50.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product50_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "473g",
+      "dimensions": "13mm x 65mm x 14mm",
+      "battery_life": "45 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-15T14:48:20.283656094Z",
+    "updated_at": "2025-03-31T14:48:20.283656094Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10051",
+    "name": "FutureTech Аксессуары 51",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5768.911904284696,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 105,
+      "reserved": 23
+    },
+    "sku": "FutureTech-10051",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product51.jpg",
+        "alt": "FutureTech Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product51_side.jpg",
+        "alt": "FutureTech Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "181g",
+      "dimensions": "88mm x 60mm x 5mm",
+      "battery_life": "29 hours",
+      "water_resistance": "IP66"
+    },
+    "created_at": "2025-04-05T14:48:20.283666748Z",
+    "updated_at": "2025-04-07T14:48:20.283666748Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10052",
+    "name": "XYZ Компьютеры 52",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8999.54186878696,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 236,
+      "reserved": 5
+    },
+    "sku": "XYZ-10052",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product52.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product52_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "139g",
+      "dimensions": "45mm x 72mm x 20mm",
+      "battery_life": "35 hours",
+      "water_resistance": "IP58"
+    },
+    "created_at": "2025-03-20T14:48:20.283677944Z",
+    "updated_at": "2025-04-03T14:48:20.283677944Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10053",
+    "name": "TechGiant Компьютеры 53",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 3925.2961980081814,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 195,
+      "reserved": 5
+    },
+    "sku": "TechGiant-10053",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product53.jpg",
+        "alt": "TechGiant Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product53_side.jpg",
+        "alt": "TechGiant Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "250g",
+      "dimensions": "61mm x 35mm x 22mm",
+      "battery_life": "25 hours",
+      "water_resistance": "IP65"
+    },
+    "created_at": "2025-03-16T14:48:20.28368855Z",
+    "updated_at": "2025-04-08T14:48:20.28368855Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10054",
+    "name": "XYZ Компьютеры 54",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7968.097508355613,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 164,
+      "reserved": 29
+    },
+    "sku": "XYZ-10054",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product54.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product54_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "54g",
+      "dimensions": "77mm x 45mm x 29mm",
+      "battery_life": "35 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-04-03T14:48:20.283699377Z",
+    "updated_at": "2025-03-30T14:48:20.283699377Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10055",
+    "name": "TechGiant Смартфоны 55",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1065.0146145557096,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 145,
+      "reserved": 39
+    },
+    "sku": "TechGiant-10055",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product55.jpg",
+        "alt": "TechGiant Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product55_side.jpg",
+        "alt": "TechGiant Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "344g",
+      "dimensions": "74mm x 83mm x 25mm",
+      "battery_life": "39 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-23T14:48:20.28371046Z",
+    "updated_at": "2025-04-07T14:48:20.28371046Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10056",
+    "name": "FutureTech Бытовая техника 56",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4215.401956230086,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 228,
+      "reserved": 5
+    },
+    "sku": "FutureTech-10056",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product56.jpg",
+        "alt": "FutureTech Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product56_side.jpg",
+        "alt": "FutureTech Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "474g",
+      "dimensions": "35mm x 46mm x 5mm",
+      "battery_life": "39 hours",
+      "water_resistance": "IP65"
+    },
+    "created_at": "2025-03-18T14:48:20.283721326Z",
+    "updated_at": "2025-04-05T14:48:20.283721326Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10057",
+    "name": "SmartLife Аксессуары 57",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7868.585038572171,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 93,
+      "reserved": 48
+    },
+    "sku": "SmartLife-10057",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product57.jpg",
+        "alt": "SmartLife Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product57_side.jpg",
+        "alt": "SmartLife Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "90g",
+      "dimensions": "64mm x 10mm x 13mm",
+      "battery_life": "30 hours",
+      "water_resistance": "IP58"
+    },
+    "created_at": "2025-03-14T14:48:20.287780145Z",
+    "updated_at": "2025-04-08T14:48:20.287780145Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10058",
+    "name": "TechGiant Компьютеры 58",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6079.434230573293,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 89,
+      "reserved": 18
+    },
+    "sku": "TechGiant-10058",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product58.jpg",
+        "alt": "TechGiant Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product58_side.jpg",
+        "alt": "TechGiant Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "79g",
+      "dimensions": "70mm x 96mm x 27mm",
+      "battery_life": "22 hours",
+      "water_resistance": "IP54"
+    },
+    "created_at": "2025-03-12T14:48:20.287797033Z",
+    "updated_at": "2025-03-30T14:48:20.287797033Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10059",
+    "name": "XYZ Компьютеры 59",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8398.464199515236,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 62,
+      "reserved": 15
+    },
+    "sku": "XYZ-10059",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product59.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product59_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "63g",
+      "dimensions": "83mm x 58mm x 27mm",
+      "battery_life": "33 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-17T14:48:20.287807922Z",
+    "updated_at": "2025-04-05T14:48:20.287807922Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10060",
+    "name": "TechGiant Аксессуары 60",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8373.672217548869,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 78,
+      "reserved": 9
+    },
+    "sku": "TechGiant-10060",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product60.jpg",
+        "alt": "TechGiant Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product60_side.jpg",
+        "alt": "TechGiant Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "377g",
+      "dimensions": "18mm x 16mm x 17mm",
+      "battery_life": "24 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-04-02T14:48:20.287818869Z",
+    "updated_at": "2025-04-08T14:48:20.287818869Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10061",
+    "name": "XYZ Электроника 61",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6524.020301927412,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 136,
+      "reserved": 23
+    },
+    "sku": "XYZ-10061",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product61.jpg",
+        "alt": "XYZ Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product61_side.jpg",
+        "alt": "XYZ Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "491g",
+      "dimensions": "65mm x 56mm x 18mm",
+      "battery_life": "31 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-28T14:48:20.287830693Z",
+    "updated_at": "2025-04-04T14:48:20.287830693Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10062",
+    "name": "XYZ Аксессуары 62",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9430.001777821624,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "XYZ",
+    "stock": {
+      "available": 207,
+      "reserved": 27
+    },
+    "sku": "XYZ-10062",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product62.jpg",
+        "alt": "XYZ Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product62_side.jpg",
+        "alt": "XYZ Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "192g",
+      "dimensions": "15mm x 40mm x 25mm",
+      "battery_life": "15 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-31T14:48:20.287841796Z",
+    "updated_at": "2025-04-03T14:48:20.287841796Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10063",
+    "name": "FutureTech Аксессуары 63",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 3836.4533405944712,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 145,
+      "reserved": 6
+    },
+    "sku": "FutureTech-10063",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product63.jpg",
+        "alt": "FutureTech Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product63_side.jpg",
+        "alt": "FutureTech Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "206g",
+      "dimensions": "51mm x 67mm x 11mm",
+      "battery_life": "47 hours",
+      "water_resistance": "IP54"
+    },
+    "created_at": "2025-04-07T14:48:20.287852523Z",
+    "updated_at": "2025-03-30T14:48:20.287852523Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10064",
+    "name": "XYZ Бытовая техника 64",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5836.589131912549,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 93,
+      "reserved": 32
+    },
+    "sku": "XYZ-10064",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product64.jpg",
+        "alt": "XYZ Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product64_side.jpg",
+        "alt": "XYZ Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "390g",
+      "dimensions": "72mm x 86mm x 15mm",
+      "battery_life": "26 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-24T14:48:20.287863617Z",
+    "updated_at": "2025-04-04T14:48:20.287863617Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10065",
+    "name": "FutureTech Смартфоны 65",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8206.812246117355,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 215,
+      "reserved": 26
+    },
+    "sku": "FutureTech-10065",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product65.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product65_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "355g",
+      "dimensions": "14mm x 18mm x 5mm",
+      "battery_life": "47 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-31T14:48:20.287874468Z",
+    "updated_at": "2025-04-01T14:48:20.287874468Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10066",
+    "name": "XYZ Бытовая техника 66",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1132.6994540157264,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 154,
+      "reserved": 10
+    },
+    "sku": "XYZ-10066",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product66.jpg",
+        "alt": "XYZ Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product66_side.jpg",
+        "alt": "XYZ Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "411g",
+      "dimensions": "46mm x 82mm x 12mm",
+      "battery_life": "15 hours",
+      "water_resistance": "IP57"
+    },
+    "created_at": "2025-04-07T14:48:20.287885257Z",
+    "updated_at": "2025-03-31T14:48:20.287885257Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10067",
+    "name": "SmartLife Бытовая техника 67",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1223.8951876395458,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 175,
+      "reserved": 26
+    },
+    "sku": "SmartLife-10067",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product67.jpg",
+        "alt": "SmartLife Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product67_side.jpg",
+        "alt": "SmartLife Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "160g",
+      "dimensions": "33mm x 26mm x 21mm",
+      "battery_life": "31 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-23T14:48:20.287902231Z",
+    "updated_at": "2025-04-07T14:48:20.287902231Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10068",
+    "name": "TechGiant Компьютеры 68",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1436.0021649736889,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 182,
+      "reserved": 12
+    },
+    "sku": "TechGiant-10068",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product68.jpg",
+        "alt": "TechGiant Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product68_side.jpg",
+        "alt": "TechGiant Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "335g",
+      "dimensions": "44mm x 81mm x 26mm",
+      "battery_life": "38 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-04-03T14:48:20.287913604Z",
+    "updated_at": "2025-04-02T14:48:20.287913604Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10069",
+    "name": "ABC Аксессуары 69",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2674.5381427385387,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "ABC",
+    "stock": {
+      "available": 51,
+      "reserved": 21
+    },
+    "sku": "ABC-10069",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product69.jpg",
+        "alt": "ABC Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product69_side.jpg",
+        "alt": "ABC Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "185g",
+      "dimensions": "96mm x 11mm x 16mm",
+      "battery_life": "24 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-03-22T14:48:20.287924421Z",
+    "updated_at": "2025-04-08T14:48:20.287924421Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10070",
+    "name": "XYZ Бытовая техника 70",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 3038.4093770595664,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 125,
+      "reserved": 14
+    },
+    "sku": "XYZ-10070",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product70.jpg",
+        "alt": "XYZ Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product70_side.jpg",
+        "alt": "XYZ Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "441g",
+      "dimensions": "40mm x 34mm x 19mm",
+      "battery_life": "43 hours",
+      "water_resistance": "IP60"
+    },
+    "created_at": "2025-03-23T14:48:20.287938421Z",
+    "updated_at": "2025-04-07T14:48:20.287938421Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10071",
+    "name": "XYZ Компьютеры 71",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2241.2968055211513,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "XYZ",
+    "stock": {
+      "available": 53,
+      "reserved": 22
+    },
+    "sku": "XYZ-10071",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product71.jpg",
+        "alt": "XYZ Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product71_side.jpg",
+        "alt": "XYZ Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "390g",
+      "dimensions": "51mm x 58mm x 21mm",
+      "battery_life": "15 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-04-07T14:48:20.28794915Z",
+    "updated_at": "2025-04-04T14:48:20.28794915Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10072",
+    "name": "SmartLife Аксессуары 72",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6471.955880510861,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 204,
+      "reserved": 7
+    },
+    "sku": "SmartLife-10072",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product72.jpg",
+        "alt": "SmartLife Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product72_side.jpg",
+        "alt": "SmartLife Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "229g",
+      "dimensions": "12mm x 47mm x 27mm",
+      "battery_life": "37 hours",
+      "water_resistance": "IP62"
+    },
+    "created_at": "2025-03-12T14:48:20.287964365Z",
+    "updated_at": "2025-04-01T14:48:20.287964365Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10073",
+    "name": "XYZ Электроника 73",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 3237.883775952539,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 93,
+      "reserved": 30
+    },
+    "sku": "XYZ-10073",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product73.jpg",
+        "alt": "XYZ Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product73_side.jpg",
+        "alt": "XYZ Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "494g",
+      "dimensions": "24mm x 54mm x 29mm",
+      "battery_life": "13 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-15T14:48:20.287976073Z",
+    "updated_at": "2025-04-08T14:48:20.287976073Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10074",
+    "name": "SmartLife Бытовая техника 74",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7552.450296202405,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 95,
+      "reserved": 46
+    },
+    "sku": "SmartLife-10074",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product74.jpg",
+        "alt": "SmartLife Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product74_side.jpg",
+        "alt": "SmartLife Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "366g",
+      "dimensions": "24mm x 88mm x 20mm",
+      "battery_life": "45 hours",
+      "water_resistance": "IP56"
+    },
+    "created_at": "2025-03-28T14:48:20.287986796Z",
+    "updated_at": "2025-04-08T14:48:20.287986796Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10075",
+    "name": "XYZ Смартфоны 75",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7878.196268034535,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "XYZ",
+    "stock": {
+      "available": 94,
+      "reserved": 33
+    },
+    "sku": "XYZ-10075",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product75.jpg",
+        "alt": "XYZ Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product75_side.jpg",
+        "alt": "XYZ Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "118g",
+      "dimensions": "24mm x 91mm x 21mm",
+      "battery_life": "12 hours",
+      "water_resistance": "IP56"
+    },
+    "created_at": "2025-03-29T14:48:20.288008628Z",
+    "updated_at": "2025-04-01T14:48:20.288008628Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10076",
+    "name": "SmartLife Электроника 76",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 3681.3627628928293,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 235,
+      "reserved": 8
+    },
+    "sku": "SmartLife-10076",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product76.jpg",
+        "alt": "SmartLife Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product76_side.jpg",
+        "alt": "SmartLife Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "422g",
+      "dimensions": "82mm x 17mm x 21mm",
+      "battery_life": "24 hours",
+      "water_resistance": "IP54"
+    },
+    "created_at": "2025-03-31T14:48:20.288019568Z",
+    "updated_at": "2025-04-05T14:48:20.288019568Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10077",
+    "name": "FutureTech Смартфоны 77",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6440.642329474345,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 248,
+      "reserved": 44
+    },
+    "sku": "FutureTech-10077",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product77.jpg",
+        "alt": "FutureTech Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product77_side.jpg",
+        "alt": "FutureTech Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "288g",
+      "dimensions": "88mm x 49mm x 16mm",
+      "battery_life": "42 hours",
+      "water_resistance": "IP65"
+    },
+    "created_at": "2025-03-21T14:48:20.288030194Z",
+    "updated_at": "2025-04-05T14:48:20.288030194Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10078",
+    "name": "XYZ Электроника 78",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1675.6621702857408,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 142,
+      "reserved": 44
+    },
+    "sku": "XYZ-10078",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product78.jpg",
+        "alt": "XYZ Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product78_side.jpg",
+        "alt": "XYZ Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "53g",
+      "dimensions": "77mm x 52mm x 21mm",
+      "battery_life": "26 hours",
+      "water_resistance": "IP65"
+    },
+    "created_at": "2025-04-03T14:48:20.28804081Z",
+    "updated_at": "2025-04-07T14:48:20.28804081Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10079",
+    "name": "SmartLife Компьютеры 79",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9320.135497548474,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 200,
+      "reserved": 41
+    },
+    "sku": "SmartLife-10079",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product79.jpg",
+        "alt": "SmartLife Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product79_side.jpg",
+        "alt": "SmartLife Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "486g",
+      "dimensions": "93mm x 58mm x 26mm",
+      "battery_life": "34 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-04-03T14:48:20.288051752Z",
+    "updated_at": "2025-03-31T14:48:20.288051752Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10080",
+    "name": "TechGiant Бытовая техника 80",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2800.9111426769796,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 101,
+      "reserved": 9
+    },
+    "sku": "TechGiant-10080",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product80.jpg",
+        "alt": "TechGiant Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product80_side.jpg",
+        "alt": "TechGiant Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "79g",
+      "dimensions": "80mm x 11mm x 6mm",
+      "battery_life": "16 hours",
+      "water_resistance": "IP63"
+    },
+    "created_at": "2025-03-19T14:48:20.288062365Z",
+    "updated_at": "2025-04-07T14:48:20.288062365Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10081",
+    "name": "ABC Аксессуары 81",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8155.634100422129,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "ABC",
+    "stock": {
+      "available": 198,
+      "reserved": 6
+    },
+    "sku": "ABC-10081",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product81.jpg",
+        "alt": "ABC Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product81_side.jpg",
+        "alt": "ABC Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "291g",
+      "dimensions": "51mm x 83mm x 29mm",
+      "battery_life": "30 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-03-21T14:48:20.288072964Z",
+    "updated_at": "2025-03-31T14:48:20.288072964Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10082",
+    "name": "TechGiant Аксессуары 82",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7895.521527174113,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 130,
+      "reserved": 47
+    },
+    "sku": "TechGiant-10082",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product82.jpg",
+        "alt": "TechGiant Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product82_side.jpg",
+        "alt": "TechGiant Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "142g",
+      "dimensions": "55mm x 85mm x 24mm",
+      "battery_life": "31 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-04-04T14:48:20.288083986Z",
+    "updated_at": "2025-03-30T14:48:20.288083986Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10083",
+    "name": "ABC Аксессуары 83",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4324.783317661252,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "ABC",
+    "stock": {
+      "available": 130,
+      "reserved": 5
+    },
+    "sku": "ABC-10083",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product83.jpg",
+        "alt": "ABC Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product83_side.jpg",
+        "alt": "ABC Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "467g",
+      "dimensions": "28mm x 18mm x 5mm",
+      "battery_life": "13 hours",
+      "water_resistance": "IP62"
+    },
+    "created_at": "2025-03-23T14:48:20.288094521Z",
+    "updated_at": "2025-04-05T14:48:20.288094521Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10084",
+    "name": "TechGiant Электроника 84",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2379.8599108248454,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 53,
+      "reserved": 1
+    },
+    "sku": "TechGiant-10084",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product84.jpg",
+        "alt": "TechGiant Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product84_side.jpg",
+        "alt": "TechGiant Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "59g",
+      "dimensions": "20mm x 47mm x 27mm",
+      "battery_life": "33 hours",
+      "water_resistance": "IP54"
+    },
+    "created_at": "2025-03-31T14:48:20.28810519Z",
+    "updated_at": "2025-04-03T14:48:20.28810519Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10085",
+    "name": "FutureTech Компьютеры 85",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5452.840209354724,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 156,
+      "reserved": 21
+    },
+    "sku": "FutureTech-10085",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product85.jpg",
+        "alt": "FutureTech Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product85_side.jpg",
+        "alt": "FutureTech Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "316g",
+      "dimensions": "38mm x 48mm x 13mm",
+      "battery_life": "37 hours",
+      "water_resistance": "IP66"
+    },
+    "created_at": "2025-04-05T14:48:20.288116643Z",
+    "updated_at": "2025-04-01T14:48:20.288116643Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10086",
+    "name": "TechGiant Аксессуары 86",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 7150.180022707295,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 232,
+      "reserved": 21
+    },
+    "sku": "TechGiant-10086",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product86.jpg",
+        "alt": "TechGiant Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product86_side.jpg",
+        "alt": "TechGiant Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "341g",
+      "dimensions": "88mm x 23mm x 13mm",
+      "battery_life": "29 hours",
+      "water_resistance": "IP60"
+    },
+    "created_at": "2025-03-20T14:48:20.288127274Z",
+    "updated_at": "2025-04-08T14:48:20.288127274Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10087",
+    "name": "ABC Электроника 87",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2135.98111519482,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "ABC",
+    "stock": {
+      "available": 133,
+      "reserved": 16
+    },
+    "sku": "ABC-10087",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product87.jpg",
+        "alt": "ABC Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product87_side.jpg",
+        "alt": "ABC Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "152g",
+      "dimensions": "24mm x 34mm x 11mm",
+      "battery_life": "31 hours",
+      "water_resistance": "IP58"
+    },
+    "created_at": "2025-03-19T14:48:20.288137949Z",
+    "updated_at": "2025-04-07T14:48:20.288137949Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10088",
+    "name": "FutureTech Аксессуары 88",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 3371.871286860844,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 107,
+      "reserved": 16
+    },
+    "sku": "FutureTech-10088",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product88.jpg",
+        "alt": "FutureTech Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product88_side.jpg",
+        "alt": "FutureTech Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "315g",
+      "dimensions": "36mm x 49mm x 29mm",
+      "battery_life": "21 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-03-19T14:48:20.288149271Z",
+    "updated_at": "2025-04-06T14:48:20.288149271Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10089",
+    "name": "ABC Смартфоны 89",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 4549.2190502833855,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "ABC",
+    "stock": {
+      "available": 184,
+      "reserved": 7
+    },
+    "sku": "ABC-10089",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product89.jpg",
+        "alt": "ABC Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product89_side.jpg",
+        "alt": "ABC Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "215g",
+      "dimensions": "72mm x 51mm x 12mm",
+      "battery_life": "36 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-03-21T14:48:20.288159942Z",
+    "updated_at": "2025-04-01T14:48:20.288159942Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10090",
+    "name": "FutureTech Аксессуары 90",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1808.1136456387737,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 199,
+      "reserved": 22
+    },
+    "sku": "FutureTech-10090",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product90.jpg",
+        "alt": "FutureTech Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product90_side.jpg",
+        "alt": "FutureTech Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "90g",
+      "dimensions": "88mm x 58mm x 15mm",
+      "battery_life": "37 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-03-14T14:48:20.288170525Z",
+    "updated_at": "2025-04-01T14:48:20.288170525Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10091",
+    "name": "ABC Смартфоны 91",
+    "description": "Смартфоны с расширенными функциональными возможностями",
+    "price": {
+      "amount": 8232.306258926412,
+      "currency": "RUB"
+    },
+    "category": "Смартфоны",
+    "brand": "ABC",
+    "stock": {
+      "available": 143,
+      "reserved": 12
+    },
+    "sku": "ABC-10091",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product91.jpg",
+        "alt": "ABC Смартфоны - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product91_side.jpg",
+        "alt": "ABC Смартфоны - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "474g",
+      "dimensions": "69mm x 65mm x 27mm",
+      "battery_life": "28 hours",
+      "water_resistance": "IP56"
+    },
+    "created_at": "2025-04-08T14:48:20.288181576Z",
+    "updated_at": "2025-04-05T14:48:20.288181576Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10092",
+    "name": "FutureTech Аксессуары 92",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9227.724425392247,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "FutureTech",
+    "stock": {
+      "available": 226,
+      "reserved": 49
+    },
+    "sku": "FutureTech-10092",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product92.jpg",
+        "alt": "FutureTech Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product92_side.jpg",
+        "alt": "FutureTech Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "266g",
+      "dimensions": "93mm x 76mm x 23mm",
+      "battery_life": "37 hours",
+      "water_resistance": "IP65"
+    },
+    "created_at": "2025-03-15T14:48:20.288192145Z",
+    "updated_at": "2025-04-05T14:48:20.288192145Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10093",
+    "name": "TechGiant Бытовая техника 93",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 1014.6411373379367,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 184,
+      "reserved": 25
+    },
+    "sku": "TechGiant-10093",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product93.jpg",
+        "alt": "TechGiant Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product93_side.jpg",
+        "alt": "TechGiant Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "103g",
+      "dimensions": "41mm x 50mm x 10mm",
+      "battery_life": "34 hours",
+      "water_resistance": "IP59"
+    },
+    "created_at": "2025-03-23T14:48:20.28820307Z",
+    "updated_at": "2025-04-08T14:48:20.28820307Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10094",
+    "name": "TechGiant Компьютеры 94",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6671.742089414113,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 149,
+      "reserved": 0
+    },
+    "sku": "TechGiant-10094",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product94.jpg",
+        "alt": "TechGiant Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product94_side.jpg",
+        "alt": "TechGiant Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "79g",
+      "dimensions": "95mm x 98mm x 13mm",
+      "battery_life": "27 hours",
+      "water_resistance": "IP55"
+    },
+    "created_at": "2025-03-14T14:48:20.288214386Z",
+    "updated_at": "2025-04-02T14:48:20.288214386Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10095",
+    "name": "XYZ Аксессуары 95",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 6175.095935652496,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "XYZ",
+    "stock": {
+      "available": 57,
+      "reserved": 21
+    },
+    "sku": "XYZ-10095",
+    "tags": [
+      "умные часы",
+      "гаджеты",
+      "технологии"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product95.jpg",
+        "alt": "XYZ Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product95_side.jpg",
+        "alt": "XYZ Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "147g",
+      "dimensions": "44mm x 68mm x 23mm",
+      "battery_life": "40 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-03-22T14:48:20.288225047Z",
+    "updated_at": "2025-04-08T14:48:20.288225047Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10096",
+    "name": "TechGiant Электроника 96",
+    "description": "Электроника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 9553.055403711458,
+      "currency": "RUB"
+    },
+    "category": "Электроника",
+    "brand": "TechGiant",
+    "stock": {
+      "available": 162,
+      "reserved": 22
+    },
+    "sku": "TechGiant-10096",
+    "tags": [
+      "ноутбук",
+      "компьютер",
+      "работа"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product96.jpg",
+        "alt": "TechGiant Электроника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product96_side.jpg",
+        "alt": "TechGiant Электроника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "294g",
+      "dimensions": "93mm x 14mm x 7mm",
+      "battery_life": "25 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-23T14:48:20.288235704Z",
+    "updated_at": "2025-04-02T14:48:20.288235704Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10097",
+    "name": "XYZ Бытовая техника 97",
+    "description": "Бытовая техника с расширенными функциональными возможностями",
+    "price": {
+      "amount": 2014.7761282675497,
+      "currency": "RUB"
+    },
+    "category": "Бытовая техника",
+    "brand": "XYZ",
+    "stock": {
+      "available": 242,
+      "reserved": 2
+    },
+    "sku": "XYZ-10097",
+    "tags": [
+      "камера",
+      "фото",
+      "видео"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product97.jpg",
+        "alt": "XYZ Бытовая техника - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product97_side.jpg",
+        "alt": "XYZ Бытовая техника - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "303g",
+      "dimensions": "23mm x 40mm x 11mm",
+      "battery_life": "45 hours",
+      "water_resistance": "IP67"
+    },
+    "created_at": "2025-03-31T14:48:20.288249583Z",
+    "updated_at": "2025-03-31T14:48:20.288249583Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10098",
+    "name": "SmartLife Компьютеры 98",
+    "description": "Компьютеры с расширенными функциональными возможностями",
+    "price": {
+      "amount": 3650.7547781631415,
+      "currency": "RUB"
+    },
+    "category": "Компьютеры",
+    "brand": "SmartLife",
+    "stock": {
+      "available": 109,
+      "reserved": 25
+    },
+    "sku": "SmartLife-10098",
+    "tags": [
+      "наушники",
+      "аудио",
+      "музыка"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product98.jpg",
+        "alt": "SmartLife Компьютеры - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product98_side.jpg",
+        "alt": "SmartLife Компьютеры - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "356g",
+      "dimensions": "54mm x 23mm x 15mm",
+      "battery_life": "15 hours",
+      "water_resistance": "IP64"
+    },
+    "created_at": "2025-03-26T14:48:20.288260268Z",
+    "updated_at": "2025-04-03T14:48:20.288260268Z",
+    "index": "products",
+    "store_id": "store_001"
+  },
+  {
+    "product_id": "10099",
+    "name": "ABC Аксессуары 99",
+    "description": "Аксессуары с расширенными функциональными возможностями",
+    "price": {
+      "amount": 5644.300333694046,
+      "currency": "RUB"
+    },
+    "category": "Аксессуары",
+    "brand": "ABC",
+    "stock": {
+      "available": 126,
+      "reserved": 20
+    },
+    "sku": "ABC-10099",
+    "tags": [
+      "смартфон",
+      "телефон",
+      "мобильный"
+    ],
+    "images": [
+      {
+        "url": "https://example.com/images/product99.jpg",
+        "alt": "ABC Аксессуары - вид спереди"
+      },
+      {
+        "url": "https://example.com/images/product99_side.jpg",
+        "alt": "ABC Аксессуары - вид сбоку"
+      }
+    ],
+    "specifications": {
+      "weight": "404g",
+      "dimensions": "91mm x 57mm x 11mm",
+      "battery_life": "37 hours",
+      "water_resistance": "IP61"
+    },
+    "created_at": "2025-03-17T14:48:20.288271084Z",
+    "updated_at": "2025-04-08T14:48:20.288271084Z",
+    "index": "products",
+    "store_id": "store_001"
+  }
+]

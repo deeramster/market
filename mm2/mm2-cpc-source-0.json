@@ -6,5 +6,19 @@
   "source.cluster.alias": "source-0",
   "source.cluster.bootstrap.servers": "kafka-source-0:9092,kafka-source-1:9092",
   "target.cluster.alias": "target-0",
-  "target.cluster.bootstrap.servers": "kafka-target-0:9092,kafka-target-1:9092"
+  "target.cluster.bootstrap.servers": "kafka-target-0:9092,kafka-target-1:9092",
+  "source.cluster.security.protocol": "SSL",
+  "source.cluster.ssl.truststore.location": "/opt/bitnami/kafka/config/certs/kafka.truststore.jks",
+  "source.cluster.ssl.truststore.password": "test1234",
+  "source.cluster.ssl.keystore.location": "/opt/bitnami/kafka/config/certs/kafka.keystore.jks",
+  "source.cluster.ssl.keystore.password": "test1234",
+  "source.cluster.ssl.key.password": "test1234",
+  "source.cluster.ssl.endpoint.identification.algorithm": "",
+  "target.cluster.security.protocol": "SSL",
+  "target.cluster.ssl.truststore.location": "/opt/bitnami/kafka/config/certs/kafka.truststore.jks",
+  "target.cluster.ssl.truststore.password": "test1234",
+  "target.cluster.ssl.keystore.location": "/opt/bitnami/kafka/config/certs/kafka.keystore.jks",
+  "target.cluster.ssl.keystore.password": "test1234",
+  "target.cluster.ssl.key.password": "test1234",
+  "target.cluster.ssl.endpoint.identification.algorithm": ""
 }

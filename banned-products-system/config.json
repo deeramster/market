@@ -1,0 +1,17 @@
+{
+  "kafka": {
+    "brokers": "kafka-source-0:9092,kafka-source-1:9092",
+    "products_topic": "products",
+    "filtered_topic": "filtered-products",
+    "group_id": "products-filter-group",
+    "security_protocol": "ssl",
+    "ssl_ca": "/app/storage/certs/truststore.pem",
+    "ssl_cert": "/app/storage/certs/shop-api-cert.pem",
+    "ssl_key": "/app/storage/certs/shop-api-key.pem",
+    "ssl_key_password": "123456",
+    "ssl_endpoint_identification_algorithm": "none"
+  },
+  "storage": {
+    "file_path": "/app/storage/data/banned_products.json"
+  }
+}
