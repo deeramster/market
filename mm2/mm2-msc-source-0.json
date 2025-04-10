@@ -1,7 +1,7 @@
 {
   "name": "mm2-msc-source-0",
   "connector.class": "org.apache.kafka.connect.mirror.MirrorSourceConnector",
-  "topics": "products",
+  "topics": "filtered_products",
   "sync.topic.acls.enabled": false,
   "sync.topic.configs.enabled": false,
   "key.converter": "org.apache.kafka.connect.converters.ByteArrayConverter",

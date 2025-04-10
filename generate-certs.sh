@@ -7,7 +7,7 @@ DIRS=(
     "kafka-source-0" "kafka-source-1" "kafka-source-2"
     "kafka-target-0" "kafka-target-1" "kafka-target-2"
     "client" "kafka-ui" "schema-registry" "kafka-connect"
-    "kafka-exporter" "shop-api"
+    "kafka-exporter" "shop-api" "client-api"
 )
 
 if [ ! -d "$BASE_DIR" ]; then
@@ -141,5 +141,6 @@ generate_jks_client_certs "kafka-connect"
 
 generate_pem_client_certs "kafka-exporter"
 generate_pem_client_certs "shop-api"
+generate_pem_client_certs "client-api"
 
 echo "All certificates and keystores successfully created."

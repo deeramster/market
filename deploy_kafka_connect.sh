@@ -122,6 +122,6 @@ status)
   ;;
 
 *)
-  echo "usage: mm2.sh [deploy | undeploy | redeploy | status] cluster"
+  echo "usage: deploy_kafka_connect.sh [deploy | undeploy | redeploy | status] cluster"
   ;;
 esac

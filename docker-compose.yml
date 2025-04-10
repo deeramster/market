@@ -21,7 +21,6 @@ x-kafka-source-env-common: &kafka-source-env-common
   KAFKA_CFG_LISTENERS: SSL://:9092,CONTROLLER://:9093
   KAFKA_CFG_CONTROLLER_LISTENER_NAMES: CONTROLLER
   KAFKA_CFG_INTER_BROKER_LISTENER_NAME: SSL
-
   KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE: "true"
   KAFKA_CFG_DELETE_TOPIC_ENABLE: "true"
   KAFKA_CFG_CONTROLLER_QUORUM_VOTERS: 0@kafka-source-0:9093,1@kafka-source-1:9093
@@ -34,7 +33,6 @@ x-kafka-source-env-common: &kafka-source-env-common
   KAFKA_CFG_SSL_KEY_PASSWORD: "test1234"
   KAFKA_CFG_SSL_TRUSTSTORE_PASSWORD: "test1234"
   KAFKA_LOG4J_LOGGERS: "org.apache.kafka.metadata.authorizer=DEBUG,org.apache.kafka.server.authorizer=DEBUG"
-
   KAFKA_CFG_EARLY_START_LISTENERS: CONTROLLER
   KAFKA_CFG_AUTHORIZER_CLASS_NAME: org.apache.kafka.metadata.authorizer.StandardAuthorizer
   KAFKA_CFG_ALLOW_EVERYONE_IF_NO_ACL_FOUND: true
@@ -42,6 +40,7 @@ x-kafka-source-env-common: &kafka-source-env-common
   KAFKA_CFG_SSL_PRINCIPAL_MAPPING_RULES: "RULE:^CN=([^.]+).*/$1/L,DEFAULT"
   KAFKA_CFG_CONTROLLER_SSL_PRINCIPAL_MAPPING_RULES: "DEFAULT"
   KAFKA_CFG_CONTROLLER_AUTHORIZER_ACL: "User:*"
+  EXTRA_ARGS: "-Xms128m -Xmx256m -javaagent:/opt/jmx-exporter/jmx_prometheus_javaagent-0.19.0.jar=65000:/opt/jmx-exporter/kafka-2_0_0.yml"
 
 x-kafka-target-env-common: &kafka-target-env-common
   KAFKA_CFG_MODE: kraft
@@ -50,7 +49,6 @@ x-kafka-target-env-common: &kafka-target-env-common
   KAFKA_CFG_LISTENERS: SSL://:9092,CONTROLLER://:9093
   KAFKA_CFG_CONTROLLER_LISTENER_NAMES: CONTROLLER
   KAFKA_CFG_INTER_BROKER_LISTENER_NAME: SSL
-
   KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE: "true"
   KAFKA_CFG_DELETE_TOPIC_ENABLE: "true"
   KAFKA_CFG_CONTROLLER_QUORUM_VOTERS: 0@kafka-target-0:9093,1@kafka-target-1:9093
@@ -63,7 +61,6 @@ x-kafka-target-env-common: &kafka-target-env-common
   KAFKA_CFG_SSL_KEY_PASSWORD: "test1234"
   KAFKA_CFG_SSL_TRUSTSTORE_PASSWORD: "test1234"
   KAFKA_LOG4J_LOGGERS: "org.apache.kafka.metadata.authorizer=DEBUG,org.apache.kafka.server.authorizer=DEBUG"
-
   KAFKA_CFG_EARLY_START_LISTENERS: CONTROLLER
   KAFKA_CFG_AUTHORIZER_CLASS_NAME: org.apache.kafka.metadata.authorizer.StandardAuthorizer
   KAFKA_CFG_ALLOW_EVERYONE_IF_NO_ACL_FOUND: true
@@ -71,9 +68,10 @@ x-kafka-target-env-common: &kafka-target-env-common
   KAFKA_CFG_SSL_PRINCIPAL_MAPPING_RULES: "RULE:^CN=([^.]+).*/$1/L,DEFAULT"
   KAFKA_CFG_CONTROLLER_SSL_PRINCIPAL_MAPPING_RULES: "DEFAULT"
   KAFKA_CFG_CONTROLLER_AUTHORIZER_ACL: "User:*"
+  EXTRA_ARGS: "-Xms128m -Xmx256m -javaagent:/opt/jmx-exporter/jmx_prometheus_javaagent-0.19.0.jar=65000:/opt/jmx-exporter/kafka-2_0_0.yml"
 
 x-kafka-connect-env-common: &kafka-connect-env-common
-  KAFKA_HEAP_OPTS: "-Xmx2G -Xms1G"
+  KAFKA_HEAP_OPTS: "-Xmx256m -Xms128M -javaagent:/opt/jmx-exporter/jmx_prometheus_javaagent-0.19.0.jar=65000:/opt/jmx-exporter/kafka-2_0_0.yml"
 
 x-kafka-connect-common: &kafka-connect-common
   container_name: x-kafka-connect-common
@@ -182,7 +180,7 @@ services:
     ports:
       - "8080:8080"
     healthcheck:
-      test: wget --no-verbose --tries=1 --spider localhost:8080 || exit 1
+      test: wget --no-verbose --tries=1 --spider localhost:18080 || exit 1
       interval: 5s
       timeout: 10s
       retries: 3
@@ -332,6 +330,40 @@ services:
       retries: 3
       start_period: 15s
 
+  schema-registry-target:
+    image: confluentinc/cp-schema-registry:latest
+    container_name: schema-registry-target
+    hostname: schema-registry-target
+    depends_on:
+      kafka-target-0:
+        condition: service_healthy
+      kafka-target-1:
+        condition: service_healthy
+    ports:
+      - "8881:8881"
+    environment:
+      SCHEMA_REGISTRY_HOST_NAME: schema-registry
+      SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: "kafka-target-0:9092,kafka-target-1:9092"
+      SCHEMA_REGISTRY_LISTENERS: "http://0.0.0.0:8081"
+      SCHEMA_REGISTRY_KAFKASTORE_SECURITY_PROTOCOL: SSL
+      SCHEMA_REGISTRY_KAFKASTORE_SSL_TRUSTSTORE_LOCATION: /etc/schema-registry/ssl/kafka.truststore.jks
+      SCHEMA_REGISTRY_KAFKASTORE_SSL_TRUSTSTORE_PASSWORD: test1234
+      SCHEMA_REGISTRY_KAFKASTORE_SSL_KEYSTORE_LOCATION: /etc/schema-registry/ssl/kafka.schema-registry.keystore.jks
+      SCHEMA_REGISTRY_KAFKASTORE_SSL_KEYSTORE_PASSWORD: test1234
+      SCHEMA_REGISTRY_KAFKASTORE_SSL_KEY_PASSWORD: test1234
+      SCHEMA_REGISTRY_KAFKASTORE_SSL_ENDPOINT_IDENTIFICATION_ALGORITHM: ""
+    volumes:
+      - ./secrets/schema-registry/kafka.schema-registry.keystore.jks:/etc/schema-registry/ssl/kafka.schema-registry.keystore.jks:ro
+      - ./secrets/schema-registry/kafka.schema-registry.truststore.jks:/etc/schema-registry/ssl/kafka.truststore.jks:ro
+    networks:
+      - kafka
+    healthcheck:
+      test: curl --fail http://localhost:8081/subjects || exit 1
+      interval: 5s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
   kafka-producer:
     build:
       context: ./shop-api
@@ -356,15 +388,123 @@ services:
     container_name: banned-products
     hostname: banned-products
     volumes:
-      - ./secrets/shop-api/shop-api-cert.pem:/app/certs/shop-api-cert.pem:ro
-      - ./secrets/shop-api/shop-api-key.pem:/app/certs/shop-api-key.pem:ro
-      - ./secrets/shop-api/truststore.pem:/app/certs/truststore.pem:ro
+      - ./secrets/shop-api/shop-api-cert.pem:/app/storage/certs/shop-api-cert.pem:ro
+      - ./secrets/shop-api/shop-api-key.pem:/app/storage/certs/shop-api-key.pem:ro
+      - ./secrets/shop-api/truststore.pem:/app/storage/certs/truststore.pem:ro
+      - ./banned-products-system/storage/banned_products.json:/app/storage/data/banned_products.json
     depends_on:
       kafka-source-0:
         condition: service_healthy
       kafka-source-1:
         condition: service_healthy
     command: list
+    networks:
+      - kafka
+
+  spark-app:
+    build:
+      context: ./spark-app
+    container_name: spark-app
+    hostname: spark-app
+    volumes:
+      - ./secrets/shop-api/shop-api-cert.pem:/app/certs/shop-api-cert.pem:ro
+      - ./secrets/shop-api/shop-api-key.pem:/app/certs/shop-api-key.pem:ro
+      - ./secrets/shop-api/truststore.pem:/app/certs/truststore.pem:ro
+    networks:
+      - kafka
+    depends_on:
+      kafka-target-0:
+        condition: service_healthy
+      kafka-target-1:
+        condition: service_healthy
+      schema-registry-target:
+        condition: service_healthy
+      hadoop-namenode:
+        condition: service_healthy
+      hadoop-datanode-1:
+        condition: service_healthy
+      spark:
+        condition: service_healthy
+
+  hadoop-namenode:
+    image: apache/hadoop:3.4.1
+    container_name: hadoop-namenode
+    hostname: hadoop-namenode
+    user: "root"
+    restart: always
+    platform: linux/amd64
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: "2g"
+    shm_size: 10G
+    ports:
+      - "9870:9870"
+      - "9000:9000"
+    networks:
+      - kafka
+    volumes:
+      - ./config/hadoop/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml
+      - ./config/hadoop/hdfs-site-namenode.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml
+      - ./config/hadoop/namenode_entrypoint.sh:/namenode_entrypoint.sh
+    entrypoint: ["/bin/bash", "/namenode_entrypoint.sh"]
+    command: ["hdfs", "namenode"]
+
+  hadoop-datanode-1:
+    image: apache/hadoop:3.4.1
+    container_name: hadoop-datanode-1
+    hostname: hadoop-datanode-1
+    user: "root"
+    restart: always
+    platform: linux/amd64
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: "2g"
+    shm_size: 10G
+    depends_on:
+      - hadoop-namenode
+    ports:
+      - "9864:9864"
+      - "9970:9970"
+    networks:
+      - kafka
+    volumes:
+      - ./config/hadoop/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml
+      - ./config/hadoop/hdfs-site-datanode-1.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml
+      - ./config/hadoop/datanode_entrypoint.sh:/datanode_entrypoint.sh
+    entrypoint: ["/bin/bash", "/datanode_entrypoint.sh"]
+    command: ["hdfs", "datanode"]
+
+  spark:
+    image: docker.io/bitnami/spark:3.5
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - SPARK_USER=spark
+    ports:
+      - "18080:18080"
+      - "15002:15002"
+    networks:
+      - kafka
+
+  spark-worker:
+    image: docker.io/bitnami/spark:3.5
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - SPARK_USER=spark
     networks:
       - kafka
 
@@ -391,4 +531,10 @@ volumes:
     driver: local
   alertmanager_data:
     name: alertmanager_data
+    driver: local
+  hdfs_namenode:
+    name: hdfs_namenode
+    driver: local
+  hdfs_datanode:
+    name: hdfs_datanode
     driver: local

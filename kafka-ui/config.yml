@@ -11,7 +11,7 @@ kafka:
         ssl.endpoint.identification.algorithm: ""
       metrics:
         type: JMX
-        port: 9404
+        port: 65000
         ssl: true
 
     - bootstrapServers: kafka-target-0:9092,kafka-target-1:9092
@@ -30,4 +30,4 @@ kafka:
           name: kafka-connect-1
       metrics:
         type: PROMETHEUS
-        port: 9404
+        port: 65000

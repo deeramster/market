@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-echo "🔐 Установка ACL для SOURCE кластера..."
+echo "Установка ACL для SOURCE кластера..."
 
 docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
   --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=kafka-connect.kafka.ssl" \
@@ -13,33 +13,24 @@ docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source
 docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
   --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=shop-api.kafka.ssl" \
   --operation Create --operation Alter --operation Write --operation Read --operation Describe \
-  --topic products \
+  --topic client_search \
   --command-config /bitnami/kafka/config/client-ssl.properties
 
-docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
-  --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=client-api.kafka.ssl" \
-  --operation Read --topic products \
-  --command-config /bitnami/kafka/config/client-ssl.properties
 
 docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
   --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=shop-api.kafka.ssl" \
-  --operation Create --operation Alter --operation Write --operation Read --operation Describe \
+  --operation Read --operation Describe \
   --topic filtered-products \
   --command-config /bitnami/kafka/config/client-ssl.properties
 
 docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
   --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=client-api.kafka.ssl" \
-  --operation Read --topic filtered-products \
+  --operation Read --operation Describe --topic filtered-products \
   --command-config /bitnami/kafka/config/client-ssl.properties
 
 docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
   --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=client-api.kafka.ssl" \
   --operation Read --group '*' \
-  --command-config /bitnami/kafka/config/client-ssl.properties
-
-docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
-  --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=client-api.kafka.ssl" \
-  --operation Write --topic client-activity \
   --command-config /bitnami/kafka/config/client-ssl.properties
 
 docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source-0:9092 \
@@ -95,9 +86,27 @@ docker-compose exec kafka-source-0 kafka-acls.sh --bootstrap-server kafka-source
     --operation Describe --cluster \
     --command-config /bitnami/kafka/config/client-ssl.properties
 
-echo "✅ SOURCE кластер: ACL установлены"
+echo "SOURCE кластер: ACL установлены"
 
-echo "🔐 Установка ACL для TARGET кластера..."
+echo "Установка ACL для TARGET кластера..."
+
+docker-compose exec kafka-target-0 kafka-acls.sh --bootstrap-server kafka-target-0:9092 \
+  --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=shop-api.kafka.ssl" \
+  --operation Read --operation Describe \
+  --topic filtered-products \
+  --command-config /bitnami/kafka/config/client-ssl.properties
+
+docker-compose exec kafka-target-0 kafka-acls.sh --bootstrap-server kafka-target-0:9092 \
+  --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=shop-api.kafka.ssl" \
+  --operation Create --operation Alter --operation Write --operation Read --operation Describe \
+  --topic analytics \
+  --command-config /bitnami/kafka/config/client-ssl.properties
+
+docker-compose exec kafka-target-0 kafka-acls.sh --bootstrap-server kafka-target-0:9092 \
+  --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=client-api.kafka.ssl" \
+  --operation Read --operation Describe \
+  --topic analytics \
+  --command-config /bitnami/kafka/config/client-ssl.properties
 
 docker-compose exec kafka-target-0 kafka-acls.sh --bootstrap-server kafka-target-0:9092 \
   --add --allow-principal "User:C=RU,ST=State,L=City,O=Company,OU=Test,CN=kafka-connect.kafka.ssl" \
@@ -138,7 +147,7 @@ docker-compose exec kafka-target-0 kafka-acls.sh --bootstrap-server kafka-target
     --operation Describe --cluster \
     --command-config /bitnami/kafka/config/client-ssl.properties
 
-echo "✅ TARGET кластер: ACL установлены"
+echo "TARGET кластер: ACL установлены"
 
 echo ""
 echo "🔍 Проверка ACL для SOURCE кластера:"

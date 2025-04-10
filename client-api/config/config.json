@@ -1,0 +1,24 @@
+{
+  "kafka-source": {
+    "bootstrap_servers": "kafka-source-0:9092,kafka-source-1:9092",
+    "schema_registry_url": "http://schema-registry:8081",
+    "topic_read": "filtered_products",
+    "topic_write": "client_search",
+    "security_protocol": "SSL",
+    "ssl_ca_location": "/app/certs/truststore.pem",
+    "ssl_certificate_location": "/app/certs/client-api-cert.pem",
+    "ssl_key_location": "/app/certs/client-api-key.pem",
+    "ssl_key_password": "test1234"
+  },
+  "kafka-target": {
+    "bootstrap_servers": "kafka-target-0:9092,kafka-target-1:9092",
+    "schema_registry_url": "http://schema-registry:8881",
+    "topic_read": "analytics",
+    "security_protocol": "SSL",
+    "ssl_ca_location": "/app/certs/truststore.pem",
+    "ssl_certificate_location": "/app/certs/client-api-cert.pem",
+    "ssl_key_location": "/app/certs/client-api-key.pem",
+    "ssl_key_password": "test1234"
+  },
+  "storage": "/data/client_requests"
+}
